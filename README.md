@@ -76,7 +76,7 @@ The x-axis won't show up in red because `axis.line` is set to `element_blank()` 
 
 ## Limitations of the 538 theme function
 
-In addtion to calling the 538 theme you have to make use of `scale_x_continuous` and the `scale_y_continuous` function in order to make your plot even more 538-like (Take a look at `example.R`). 
+In addition to calling the 538 theme you have to make use of `scale_x_continuous` and the `scale_y_continuous` function in order to make your plot even more 538-like (Take a look at `example.R`). 
 
 In general, all 538 time series plots start drawing the first x-axis and the first y-axis line in the left corner of the plot. This is not always the case with usual ggplot2 plots. 
 
